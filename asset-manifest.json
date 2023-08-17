@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/e-commerce/static/css/main.910b5fd6.css",
+    "main.js": "/e-commerce/static/js/main.3d98f8ea.js",
+    "static/media/caro-img2.jpg": "/e-commerce/static/media/caro-img2.0eeb13cc5cf793bfda7b.jpg",
+    "static/media/pexels-engin-akyurt-3360545.jpg": "/e-commerce/static/media/pexels-engin-akyurt-3360545.4d3b14bbae1dd36a27aa.jpg",
+    "static/media/pexels-julie-aagaard-5044314.jpg": "/e-commerce/static/media/pexels-julie-aagaard-5044314.619658ff23902569f614.jpg",
+    "static/media/pexels-rizky-sabriansyah-8268859.jpg": "/e-commerce/static/media/pexels-rizky-sabriansyah-8268859.dfcad3009b172a7884a9.jpg",
+    "static/media/cart-shoes.jpg": "/e-commerce/static/media/cart-shoes.793905c2cb61a5d8a1ea.jpg",
+    "static/media/pexels-becca-correia-8723508.jpg": "/e-commerce/static/media/pexels-becca-correia-8723508.65fabc80346159cb31eb.jpg",
+    "static/media/caro-img3.jpg": "/e-commerce/static/media/caro-img3.b4aff4f4ee1ca90dbe40.jpg",
+    "static/media/caro-img1.jpg": "/e-commerce/static/media/caro-img1.d78a1a14a1e935d0dda9.jpg",
+    "static/media/bruton-trendy-sports-shoes-for-men-blue-product-images-rvrgwpjvsp-1-202209021257.jpg": "/e-commerce/static/media/bruton-trendy-sports-shoes-for-men-blue-product-images-rvrgwpjvsp-1-202209021257.abf42b4fef4c2970f7c0.jpg",
+    "static/media/51qMYJEfdVL._UY500_.jpg": "/e-commerce/static/media/51qMYJEfdVL._UY500_.fac173928de28b41484d.jpg",
+    "index.html": "/e-commerce/index.html",
+    "main.910b5fd6.css.map": "/e-commerce/static/css/main.910b5fd6.css.map",
+    "main.3d98f8ea.js.map": "/e-commerce/static/js/main.3d98f8ea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.910b5fd6.css",
+    "static/js/main.3d98f8ea.js"
+  ]
+}
