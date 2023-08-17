@@ -1,0 +1,125 @@
+.anc {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.anc:hover {
+  color: purple !important;
+}
+
+.home-pos, .home-pos1, .home-pos2, .home-pos3, .home-pos4 {
+  position: absolute;
+  top: 10;
+}
+
+.home-pos1 {
+  left: 40rem;
+}
+
+.collect-hover {
+  height: 50px;
+  width: 80px;
+}
+
+.colect-nav {
+  position: absolute;
+  right: 0rem;
+}
+
+.collect-hover:hover {
+  color: purple;
+}
+
+.collect-hover:hover .hover-shoes{
+  width: 85rem;
+  height: 400px;
+  position: absolute;
+  z-index: 2;
+  left: -540px;
+  padding-top: 10px;
+  background-color: white;
+  top: 40px;
+  animation-name: hover-shoe;
+  animation-duration: 1s;
+}
+
+@keyframes hover-shoe {
+    from {
+      opacity: 0.5;
+      top: 30px; 
+    }
+    to {
+      opacity: 1;
+      top: 40px;
+    }
+}
+
+.collect-hover:hover .shoes-none{
+  display: block;
+}
+   
+
+.home-pos2 {
+  left: 45rem;
+  top: 17px;
+}
+
+.home-pos3 {
+  left: 51rem;
+  top: 17px;
+}
+
+.home-pos4 {
+  left: 58rem;
+  top: 17px;
+}
+
+.black-bg {
+  background-color: #000000 ;
+  width: 100%;
+  height: 130vh;
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  opacity: 0.7;
+}
+
+.responsive-pos {
+  position: absolute;
+  z-index: 4;
+  position: fixed;
+  border: 1px solid black;
+  background-color: white;
+  right: 0;
+  top: 0;
+  width: 35%;
+  height: 120vh;
+}
+
+.cross-pos {
+  position: relative;
+  top: 10px;
+}
+
+
+.shoes-none {
+  display: none;
+}
+
+img {
+  width: 320px;
+  height: 320px;
+  padding-bottom: 10px;
+}
+
+.hover-btn {
+  color: white;
+  background-color: purple;
+  border: 0;  
+  padding: 8px 138px 8px 138px;
+
+}
+
+.shoes-none img {
+  height: 320px;
+}

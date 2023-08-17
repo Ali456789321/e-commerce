@@ -1,0 +1,85 @@
+.test-bg {
+    background-image: url('../images//pexels-engin-akyurt-3360545.jpg');
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-shadow {
+    background-color: black;
+    height: 700px;
+    opacity: 60%;
+}
+
+.texts {
+    position: relative;
+    bottom: 70%;
+    z-index: 2;
+}
+
+.text-imgs {
+    color: white;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+
+.sale {
+    position: absolute;
+    width: 100%;
+}
+
+.sale h4{
+    color: white;
+    font-weight: lighter;
+}
+
+.span-text {
+    color: rgb(198, 67, 38);
+}
+
+.sale button {
+    border: 0;
+    background-color: purple;
+    color: white;
+    padding: 15px 40px 15px 40px;
+}
+
+.test-bg .second-pos {
+    position: relative;
+    bottom: 52%;
+    width: 100%;
+    z-index: 1;
+}
+
+.second-pos h1 {
+    color:white;
+    opacity: 0.15;
+    letter-spacing:20px;
+    font-size: 150px; 
+}
+
+.second-pos h2 {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 6px;
+    font-weight: bold;
+}
+
+.second-pos h4 {
+  color: white;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .second-pos h1 {
+        color:white;
+        opacity: 0.15;
+        letter-spacing:20px;
+        font-size: 40px; 
+    }
+
+    .second-pos h1 {
+        font-size: 40px;
+        letter-spacing:15px;
+    }
+   }

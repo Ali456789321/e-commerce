@@ -1,0 +1,106 @@
+.height-img {
+    height: 550px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+    border-radius: 50%;
+    position: absolute;
+    top: 250px;
+    background-color: black !important;
+}
+
+.carousel-control-next {
+    right: 30px;
+}
+
+.carousel-control-prev {
+    left: 30px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 1.7rem !important;
+}
+
+.carousel-control-next:hover, .carousel-control-prev:hover {
+    background-color: purple !important;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 0.7rem !important;
+    height: 0.7rem !important;
+    border-radius: 50%;
+}
+
+
+.btn-2 {
+    background-color: #8DA7F5;
+    border: 0;
+    padding:9px 30px 9px 30px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.btn-2:hover, .btn-1:hover, .btn-3:hover {
+    color: white;
+    box-shadow: 3px 3px 3px black;
+}
+
+
+.btn-3 {
+    background-color: #E63BA5;
+    border: 0;
+    padding:9px 30px 9px 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.btn-1 {
+    background-color: #B46F06;
+    border: 0;
+    padding:9px 30px 9px 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  /*  */
+
+
+@media only screen and (max-width: 600px) {
+    .height-img{
+      height: 400px;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        width: 0.5rem !important;
+        height: 0.5rem !important;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        top: 170px !important;
+        width: 2rem !important;
+        height: 2rem !important;
+    }
+
+    .carousel-control-next {
+        right: 10px !important;
+    }
+
+    .carousel-control-prev {
+        left: 10px !important;
+    }
+
+    .btn-1, .btn-3, .btn-2 {
+        padding:7px 12px 7px 12px; 
+        margin-bottom: 0px;
+        font-size: 8px;
+    }
+
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 1rem !important;
+    }
+  }
+  
