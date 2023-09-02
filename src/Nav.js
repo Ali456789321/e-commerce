@@ -95,15 +95,43 @@ const Nav = (props) => {
         </div>
         <hr className="mb-2 mt-4" />
         <div className="d-flex flex-column pt-1">
-          <NavLink to='/' className='ps-3 anc'>Home</NavLink>
+          <NavLink to='/' onClick={() => {
+              setState(false)
+            }} className='ps-3 anc'>Home</NavLink>
           <hr className="mb-2 mt-4" />
-          <NavLink to='/collection' className='pt-3 ps-3 anc'>Collection</NavLink>
+          <NavLink to='/collection' onClick={() => {
+              setState(false)
+            }} className='pt-3 ps-3 anc'>Collection</NavLink>
           <hr className="mb-2 mt-4" />
-          <NavLink to="/shoes" className='pt-3 ps-3 anc'>Shoes</NavLink>
+          <NavLink to="/shoes" onClick={() => {
+              setState(false)
+            }} className='pt-3 ps-3 anc'>Shoes</NavLink>
           <hr className="mb-2 mt-4" />
-          <NavLink to="/climbing" className='pt-3 ps-3 anc'>Climbing</NavLink>
+          <NavLink to="/climbing" onClick={() => {
+              setState(false)
+            }} className='pt-3 ps-3 anc'>Climbing</NavLink>
           <hr className="mb-2 mt-4" />
-          <NavLink to="#" className='pt-3 ps-3 anc'>Pages</NavLink>
+          <NavLink to="#" onClick={() => {
+              setState(false)
+            }} className='pt-3 ps-3 anc'>Pages</NavLink>
+        </div>
+        <hr className="mb-5" />
+        <div className="d-flex justify-content-between m-2">
+        <NavLink to="#" onClick={() => {
+              setState(false)
+            }} className='anc'>
+              <FiSearch size={22} className="" />
+            </NavLink>
+            <NavLink to="#" onClick={() => {
+              setState(false)
+            }} className='anc'>
+              <BsFillPersonFill size={22} className="" />
+            </NavLink>
+            <NavLink to="/shop"  onClick={() => {
+              setState(false)
+            }} className='anc'>
+              <GiShoppingBag size={22} className="" />
+            </NavLink>
         </div>
       </div>
       <Outlet />
